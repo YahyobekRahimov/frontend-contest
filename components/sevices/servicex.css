@@ -1,0 +1,64 @@
+
+.inn{
+    display: flex;
+    height: 600px;
+}
+.inn div{
+    border: solid 1px #f8f4f4;
+    width: 409px;
+    height: 509px;
+    box-sizing: border-box;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.des{
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.app{
+    color: #FFF;
+font-family: Manrope;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px; /* 125% */
+}
+.p{
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 175% */
+    padding-right: 30px;
+}
+.bg{
+    background: #1C1C1E;
+    --swiper-scrollbar-bg-color: #ffffff7c;
+    --swiper-scrollbar-drag-bg-color: #fff;
+    --swiper-scrollbar-top: 580px;
+    --swiper-scrollbar-size: 2px;
+    --swiper-scrollbar-bottom: 1px;
+}
+.btn{
+    background: none;
+    border: 2px solid #FFF;
+    border-radius: 25px;
+    color: #FFF;
+    display: flex;
+    padding: 10px 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.btn:hover{
+    opacity: 0.7;
+}
