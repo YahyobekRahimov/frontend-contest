@@ -34,7 +34,7 @@ footer {
    flex-direction: column;
 }
 
-.button-base {
+.footer__button-base {
    border: none;
    background: transparent;
    display: flex;

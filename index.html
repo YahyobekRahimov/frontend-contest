@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/styles/header.css">
     <link rel="stylesheet" href="/styles/index.css">
     <link rel="stylesheet" href="/styles/home.css">
+    <link rel="stylesheet" href="/styles/footer.css">
 </head>
 
 <body>
@@ -49,10 +50,12 @@
             </div>
             <div class="container hero__container">
                 <div class="hero__button-group">
-                    <button class="button-base hero__contact-button">Bog'lanish <img
-                            src="/assets/icons/chevron-right.svg" alt="chevron"></button>
-                    <button class="button-base hero__breif-button">Breif to'ldirish <img
-                            src="/assets/icons/form-icon.svg" alt="form icon"></button>
+                    <a style="text-decoration: none; color: white;" href="/contact.html"
+                        class="button-base hero__contact-button">Bog'lanish <img src="/assets/icons/chevron-right.svg"
+                            alt="chevron"></a>
+                    <a style="text-decoration: none; color: inherit;" href="/contact.html"
+                        class="button-base hero__breif-button">Breif
+                        to'ldirish <img src="/assets/icons/form-icon.svg" alt="form icon"></a>
                 </div>
                 <p class="hero__description">Soff iTga xush kelibsiz. Xizmat ?The main value of the onboarding process
                     needs to serve, is
@@ -71,9 +74,70 @@
             </div>
         </section>
     </main>
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__wrapper">
+                <div class="column-1-wrapper">
+                    <h3 class="footer__fading-text">Savollar bo'lsa, jo'natishingiz mumkin</h3>
+                    <form class="footer__form">
+                        <input class="footer__input-base" type="email" name="email" id="email" placeholder="Email-com">
+                        <input class="footer__input-base" type="number" name="phoneNumber" id="phoneNumber"
+                            placeholder="Phone number">
+                        <input class="footer__input-base" type="text" name="question" id="question"
+                            placeholder="Savolingizni yozing">
+                        <button class="button-base footer__submit-button">Jo'natish <img
+                                src="/assets/icons/chevron-right.svg" alt="chevron right icon"></button>
+                    </form>
+                </div>
+                <div class="footer__grid">
+                    <div>
+                        <h3 class="footer__fading-text">Services</h3>
+                        <ul>
+                            <li><a href="#">Web design</a></li>
+                            <li><a href="#">App design</a></li>
+                            <li><a href="#">Frontend</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="footer__fading-text">Portfolio</h3>
+                        <ul>
+                            <li><a href="#">iMan invest</a></li>
+                            <li><a href="#">Izma crm</a></li>
+                            <li><a href="#">Airbnb</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="footer__fading-text">About us</h3>
+                        <ul>
+                            <li><a href="#">Nimadir</a></li>
+                            <li><a href="#">Bla bla bla</a></li>
+                            <li><a href="#">Togga go</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="footer__fading-text">Contact us</h3>
+                        <ul>
+                            <li><a href="#">Mirzo ulugbek nimadir nimadir rayon 7 uy</a></li>
+                            <li><a href="#">+998 99 030 00 39</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="footer__fading-text">Label</h3>
+                        <ul>
+                            <li><a href="#">Telegram</a></li>
+                            <li><a href="#">Instagram</a></li>
+                            <li><a href="#">Facebook</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <p class="footer__copyright">2022 Naturality Digital. All rights reseved</p>
+        </div>
+    </footer>
 </body>
 
 <script src="/app/header.js"></script>
 <script src="/app/portfolio.js"></script>
+
 
 </html>
