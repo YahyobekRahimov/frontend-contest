@@ -1,0 +1,175 @@
+:root {
+   --dark-background: #1c1c1e;
+   --white: #fff;
+}
+
+.header__logo {
+   width: 106px;
+}
+
+.header {
+   background-color: var(--dark-background);
+   color: var(--white);
+   font-size: 16px;
+}
+
+.header__container {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-top: 4em;
+   padding-bottom: 5.3em;
+}
+
+.header__navigation {
+   display: flex;
+   gap: 2em;
+   list-style-type: none;
+}
+
+.header__navigation li {
+   opacity: 0.3;
+   cursor: pointer;
+   transition: 0.25s ease-in all;
+   font-size: 16px;
+}
+
+.header__navigation li:hover {
+   opacity: 1;
+}
+.header nav {
+   margin-left: auto;
+}
+.header .hamburger-button {
+   display: none;
+}
+
+.header__language-switcher {
+   margin-left: 2.5em;
+   border: 1px solid rgba(255, 255, 255, 0.6);
+   padding: 0.375em 0.625em;
+   border-radius: 4.6em;
+   display: flex;
+   gap: 0.625em;
+   align-items: center;
+}
+
+.header__language {
+   opacity: 0.3;
+   cursor: pointer;
+   font-size: 16px;
+}
+
+.active-language {
+   opacity: 1;
+}
+
+.exit-button {
+   display: none;
+}
+
+.in-office-button {
+   display: none;
+}
+
+@media (max-width: 769px) {
+   .header {
+      font-size: 12px;
+   }
+   .header .hamburger-button {
+      display: inline-block;
+      background: transparent;
+      border: none;
+      z-index: 1;
+   }
+
+   .header .hamburger-button img {
+      width: 50px;
+   }
+   .header nav {
+      display: none;
+   }
+
+   .header nav.active-nav {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 100vw;
+      height: 100vh;
+      background: var(--dark-background);
+      display: block;
+      z-index: 10;
+   }
+
+   .header__navigation {
+      flex-direction: column;
+      align-items: end;
+      padding-right: 200px;
+      padding-top: 100px;
+   }
+
+   .header__navigation li {
+      font-size: 50px;
+   }
+   .header__language-switcher {
+      z-index: 10;
+      font-size: 40px;
+   }
+
+   .header__language {
+      font-size: 40px;
+   }
+
+   .exit-button-wrapper {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+   }
+
+   .exit-button.exit-button-active {
+      display: block;
+      position: absolute;
+      z-index: 20;
+      background-color: transparent;
+      border: none;
+      top: 0;
+      right: 0;
+   }
+
+   .exit-button img {
+      width: 100px;
+   }
+
+   .in-office-button {
+      display: inline-flex;
+      border-radius: 1.875em;
+      background: rgba(255, 255, 255, 0.5);
+      box-shadow: -9.767px 9.767px 9.767px 0px
+            rgba(255, 255, 255, 0.1) inset,
+         9.767px -9.767px 9.767px 0px rgba(194, 194, 194, 0.1) inset;
+      backdrop-filter: blur(9.766666412353516px);
+      align-items: center;
+      justify-content: center;
+      font-size: 50px;
+      padding: 0.525em;
+      z-index: 11;
+      margin-top: 50px;
+   }
+   .button-wrapper.active-button-wrapper {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      bottom: 250px;
+      right: 200px;
+   }
+
+   .button-wrapper {
+      display: none;
+   }
+
+   .exit-button {
+      display: none;
+   }
+}
