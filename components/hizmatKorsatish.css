@@ -1,0 +1,173 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    border-top: 1px #fff solid;
+    max-width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.continer{
+    background: #000;
+    width: 100%;
+    height: 100%;
+}
+.w499{
+    display: flex;
+    flex-direction: column;
+    max-width: 499px;
+    border-left: 1px solid #fff ;
+    margin-left: 30px;
+    padding-left: 30px;
+    padding-top: 50px;
+    gap: 30px;
+}
+.w741{
+    display: flex;
+    flex-direction: column;
+   max-width:741px;
+   gap: 20px;
+   padding-top: 50px;
+
+}
+.ism{
+    max-width: 393px;
+    height: 50px;
+    color: #FFF;
+}
+.rounded{
+    border-radius: 25px;
+    border: 1px solid #FFF;
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(87px);
+    padding-left: 20px;
+
+}
+.companya{
+    height: 50px;
+    width: 288px;
+}
+.flex{
+    display: flex;
+}
+.gap30{
+    gap: 30px;
+}
+.gap10{
+    gap: 10px;
+}
+.pl{
+    color: #FFF;
+font-family: Manrope;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 23px; /* 143.75% */
+}
+.flexCol{
+    display: flex;
+    flex-direction: column;
+}
+.flexWrap{
+    flex-wrap: wrap;
+}
+.massage{
+   width: 711px;
+    height: 168px;
+}
+.btn{
+    padding: 10px 15px ;
+    background: #0040DD;
+    cursor: pointer;
+    gap: 5px;
+    color: #FFF;
+    border-radius: 25px;
+    text-align: center;
+    border: none;
+    justify-content: center;
+    align-items: center;
+}
+.btn:hover{
+    background: #2a63f5f7;
+}
+
+.tg{
+    width: 338px;
+    height: 50px;
+
+}
+.tel{
+    width: 394px;
+    height: 50px;
+
+}
+.sayt{
+    width: 287px;
+    height: 50px;
+
+}
+.ux{
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 125% */
+}
+.in{
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+}
+
+
+@media  screen and (max-width: 1000px) {
+    .flex {
+        display: flex;
+        flex-direction: column;
+    }
+    .massage{
+        width: 100% ;
+    }
+    .sayt{
+        width: 100%;
+    }
+    .tel{
+        width: 100%;
+    }
+    .tg{
+        width: 100%;
+    }
+    .companya{
+        width: 100%;
+    }
+    .ism{
+        width: 100%;
+    }
+    .p{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .main{
+        border: none;
+        padding-bottom: 20px;
+    }
+    .w499{
+        display: none;
+      }
+      .wnone{
+        display: flex;
+        border: none;
+      }
+  }
+  .wnone{
+    display: none;
+  }
+  
