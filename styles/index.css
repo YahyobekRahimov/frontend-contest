@@ -26,3 +26,75 @@
 body {
    font-family: "Manrope", sans-serif;
 }
+
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+.container {
+   width: 100%;
+   max-width: 1440px;
+   padding-right: 100px;
+   padding-left: 100px;
+   margin-right: auto;
+   margin-left: auto;
+}
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.hidden {
+   display: none;
+}
+
+.block {
+   display: block;
+}
+
+@media screen and (max-width: 1199px) {
+   .container {
+      padding: 0 40px; /* Medium desktop */
+   }
+}
+
+@media screen and (max-width: 991px) {
+   .container {
+      padding: 0 30px; /* Small desktop */
+   }
+}
+
+/* Tablet */
+@media screen and (max-width: 991px) {
+   .container {
+      padding: 0 30px; /* Landscape tablet */
+   }
+}
+
+@media screen and (max-width: 767px) {
+   .container {
+      padding: 0 20px; /* Portrait tablet */
+   }
+}
+
+/* Mobile */
+@media screen and (max-width: 599px) {
+   .container {
+      padding: 0 15px; /* Large mobile */
+   }
+}
+
+@media screen and (max-width: 479px) {
+   .container {
+      padding: 0 10px; /* Medium mobile */
+   }
+}
+
+@media screen and (max-width: 359px) {
+   .container {
+      padding: 0 5px; /* Small mobile */
+   }
+}
