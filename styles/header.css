@@ -72,6 +72,12 @@
    display: none;
 }
 
+.links {
+   font-size: inherit;
+   color: inherit;
+   text-decoration: none;
+}
+
 @media (max-width: 769px) {
    .header {
       font-size: 12px;
