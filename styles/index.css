@@ -26,3 +26,17 @@
 body {
    font-family: "Manrope", sans-serif;
 }
+
+.container {
+   width: 100%;
+   max-width: 1440px;
+   padding-right: 100px;
+   padding-left: 100px;
+   margin-right: auto;
+   margin-left: auto;
+}
+
+@media (max-width: 1440px) {
+   .container {
+   }
+}
