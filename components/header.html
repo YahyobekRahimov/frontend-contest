@@ -6,12 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Header</title>
     <link rel="stylesheet" href="/styles/index.css">
+    <link rel="stylesheet" href="/styles/header.css">
 </head>
 
 <body>
-    <h1>Something</h1>
+    <header class="header">
+        <div class="container header__container">
+            <a href="/">
+                <img class="header__logo" src="/assets/icons/logo.svg" alt="Logo">
+            </a>
+            <nav>
+                <ul class="header__navigation">
+                    <li>Services</li>
+                    <li>Portfolio</li>
+                    <li>About us</li>
+                </ul>
+            </nav>
+            <button class="hamburger-button">
+                <img src="/assets/icons/hamburger.svg" alt="hamburger">
+            </button>
+            <div class="button-wrapper">
+                <div class="header__language-switcher">
+                    <span data-language="uz" class="header__language">Uz</span>
+                    <span data-language="ru" class="header__language">Ru</span>
+                    <span data-language="en" class="header__language active-language">En</span>
+                </div>
+                <button class="in-office-button">Biz ofisdamiz</button>
+            </div>
+            <div class="exit-button-wrapper">
+                <button class="exit-button">
+                    <img class="" src="/assets/icons/exit.svg" alt="exit">
+                </button>
+            </div>
+        </div>
+    </header>
 </body>
 
 <script src="/app/index.js"></script>
+<script src="/app/header.js"></script>
 
 </html>
